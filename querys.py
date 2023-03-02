@@ -347,8 +347,6 @@ ORDER BY
 DESC;
 """
 
-
-
 # Executando as querys básicas e armazenando o resultado em seus respectivos dataframes
 vendas2017 = pd.read_sql_query(sql=query_vendas2017, con=engine)
 vendas2018 = pd.read_sql_query(sql=query_vendas2018, con=engine) 
