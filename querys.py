@@ -369,7 +369,6 @@ print("# CLIENTES #\n{}\n".format(clientes.loc[0:9]))
 print("# GRUPO DE PRODUTOS #\n{}\n".format(grupoProdutos.loc[0:9]))
 print("# DATAS #\n{}".format(datas.loc[0:9]))
 
-
 # Executando a querys mais complexas sobre os dados e armazenando o resultado em seus respectivos dataframes
 faturamento_ano_e_trimestre = pd.read_sql_query(sql=query_faturamento_ano_e_trimestre, con=engine)
 faturamento_por_categoria = pd.read_sql_query(sql=query_faturamento_por_categoria, con=engine)
