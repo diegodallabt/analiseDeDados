@@ -380,8 +380,8 @@ query_vendedores_atingiram_meta_por_mes = pd.read_sql_query(sql=query_vendedores
 query_vendas_por_categoria = pd.read_sql_query(sql=query_vendas_por_categoria, con=engine)
 porcentagem_vendas_por_categoria = pd.read_sql_query(sql=query_porcentagem_vendas_por_categoria, con=engine)
 ticket_medio_por_mes_e_ano = pd.read_sql_query(sql=query_ticket_medio_por_mes_e_ano, con=engine)
-top_5_clientes_faturamento_por_mes = pd.read_sql_query(sql=query_top_5_clientes_faturamento_por_mes, con=engine) #pode estar errado
-top_5_vendedor_em_faturamento_por_mes = pd.read_sql_query(sql=query_top_5_vendedor_em_faturamento_por_mes, con=engine) #pode estar errado
+top_5_clientes_faturamento_por_mes = pd.read_sql_query(sql=query_top_5_clientes_faturamento_por_mes, con=engine) 
+top_5_vendedor_em_faturamento_por_mes = pd.read_sql_query(sql=query_top_5_vendedor_em_faturamento_por_mes, con=engine) 
 peso_vendido_por_vendedor = pd.read_sql_query(sql=query_peso_vendido_por_vendedor, con=engine)
 
 # Imprimindo os resultados das querys mais complexas
