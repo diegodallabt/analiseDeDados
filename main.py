@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 import psycopg2
 
 # Conectando ao banco de dados
-engine=create_engine('postgresql+psycopg2://postgres:SENHA@localhost:5432/DB')
+engine=create_engine('postgresql+psycopg2://postgres:DIEGODB99@localhost:5432/database')
 
 # Populando o banco de dados
 ## VENDAS 2017
