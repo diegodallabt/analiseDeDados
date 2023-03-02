@@ -3,9 +3,6 @@ import psycopg2
 from psycopg2 import sql
 from sqlalchemy import create_engine
 
-# Altera precisão do tipo double para duas casas decimais
-# pd.set_option("display.precision", 2)
-
 # Conectando ao banco de dados
 engine = create_engine('postgresql://postgres:SENHA@localhost/DB')
 
